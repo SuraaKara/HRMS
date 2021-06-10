@@ -25,6 +25,7 @@ public class DepartmensController {
 	@GetMapping("/getall")
 
 	public List<Department> getAll(){
+		
 		return this.departmentService.getAll();
 		
 		

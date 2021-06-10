@@ -29,22 +29,17 @@ public class Department {
 		
 	}
 	
-
-
 	public int getId() {
 		return id;
 	}
-
 
 	public void setId(int id) {
 		this.id = id;
 	}
 
-
 	public String getDepartmentName() {
 		return DepartmentName;
 	}
-
 
 	public void setDepartmentName(String departmentName) {
 		DepartmentName = departmentName;
