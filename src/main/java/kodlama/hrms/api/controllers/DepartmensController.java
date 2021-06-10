@@ -28,6 +28,8 @@ public class DepartmensController {
 		
 		return this.departmentService.getAll();
 		
+		//yorum satırı
+		
 		
 	}
 
