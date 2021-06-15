@@ -6,6 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+
 @Entity
 @Table(name="department")
 public class Department {
@@ -33,7 +34,7 @@ public class Department {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(int id) { 
 		this.id = id;
 	}
 

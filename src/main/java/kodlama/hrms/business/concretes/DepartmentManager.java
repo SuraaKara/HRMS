@@ -26,7 +26,7 @@ public class DepartmentManager implements DepartmentService {
 	@Override
 	public DataResult<List<Department>> getAll() {
 		// TODO Auto-generated method stub
-		return new SuccessDataResult<List<Department>>(this.departmentDao.findAll(),"Data listelendi.");
+		return new SuccessDataResult<List<Department>>(this.departmentDao.findAll(), "Data listelendi.");
 				
 			
 	}
